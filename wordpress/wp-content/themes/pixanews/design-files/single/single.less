@@ -1,0 +1,81 @@
+@import 'single-style1';
+@import 'single-style2';
+@import 'comments';
+@import 'related-posts/related-posts-style1';
+
+body.page, body.archive, body.search {
+	.page-entry-header {
+		h1 {
+			font-size: 36px;
+			border-bottom-width: 3px;
+		}
+		span {
+			&:after {
+				height: 3px;
+				top: 71px;
+			}
+		}
+	}
+}
+.archive-description {
+	background: @background-darker;
+	padding: 15px;
+}
+
+//If full width layout is chosen for single posts.
+#primary.col-md-12 article {
+	margin-right: 0;
+}
+.single, .page {
+	.entry-content {
+		font-size: 16px;
+		line-height: 26px;
+		h1,h2,h3,h4,h5,h6 {
+			color: @text-dark;
+		}
+		table {
+			th, td {
+				padding: 5px;
+			}
+			thead {
+				background: @primary;
+				color: @primary-text;
+			}
+			tr {
+				border-bottom: solid 1px @background-darker;
+			}
+		}
+		blockquote {
+			font-weight: bold;
+			font-size: 21px;
+			text-align: center;
+			color: @text-dark;
+			margin: 20px auto;
+			letter-spacing: 1px;
+		}
+	}
+	
+}
+
+.pixanews-author-bio-box {
+	padding: 15px 0;
+	margin: 45px 0;
+	border: solid 1px @background-darker;
+	font-size: 15px;
+	img {
+		width: ~"calc(100% - 15px)";
+	}
+	.author-avatar {
+		padding-right: 5px;
+	}
+	a {
+		color: @primary;
+		transition: 0.3s all ease;
+		&:hover {
+			transform: scale(1.05);
+		}
+	}
+	.author-info {
+		padding-left: 0;
+	}
+}

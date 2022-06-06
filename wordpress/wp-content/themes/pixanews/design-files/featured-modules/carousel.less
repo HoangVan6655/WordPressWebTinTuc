@@ -1,0 +1,54 @@
+.owl-carousel {
+	.carousel-post {
+		position: relative;
+		.category-ribbon {
+			position: absolute;
+			top: 5px;
+			left: 5px;
+			background: @primary;
+			color: @primary-text;
+			font-size: 11px;
+			padding: 3px 6px;
+			border-radius: 3px;
+			text-transform: uppercase;
+			line-height: 11px;
+			z-index: 9;
+		}
+		img {
+			border-radius: 5px;
+			display: inline-block;
+			transition: 0.2s all ease;
+		}
+		a {
+			text-decoration: none;
+		}
+		.entry-title {
+			font-size: 16px;
+			color: @text-dark;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			line-height: 1.5em;
+			transition: 0.2s all ease;
+		}
+		.footer-meta {
+			color: @text-light;
+			font-size: 11px;
+			text-transform: uppercase;
+		}
+		&:hover {
+			img {
+				filter: brightness(0.8);
+			}
+			.entry-title {
+				color: @primary;
+			}
+		}
+	}
+}
+.home .owl-carousel:nth-child(2) {
+	margin-bottom: 35px;
+}
+.owl-dots.disabled {
+	display: block !important;
+	height: 35px;
+}

@@ -1,0 +1,73 @@
+:root {
+  --pixanews-primary: #d2a7ef;
+  --pixanews-primary-text: #f9ffe7;
+  --pixanews-background-main: #ffffff;
+  --pixanews-background-darker: #eeeeee;
+  --pixanews-secondary: #3d405b;
+  --pixanews-secondary-dark: #33202a;
+  --pixanews-secondary-text: #FFF;
+  --pixanews-text-dark: #111;
+  --pixanews-text: #555;
+  --pixanews-text-light: #777;
+  --pixanews-header-background: #000000;
+  --pixanews-header-lighter: #222;
+  --pixanews-header-text: #FFFFFF;
+  --pixanews-top-bar-text: #777777;
+  --pixanews-mobile-header-background: #FFFFFF;
+  --pixanews-mobile-header-text: #222222;
+}
+#footer-widgets {
+  background: var(--pixanews-background-darker);
+  padding: 20px 0;
+  margin-top: 45px;
+}
+#footer-widgets .widget h2,
+#footer-widgets .widget h3,
+#footer-widgets .widget h4,
+#footer-widgets .widget h1,
+#footer-widgets .widget .widget-title {
+  font-weight: 700;
+  font-size: 24px;
+  padding-bottom: 10px;
+  border-bottom: solid 2px var(--pixanews-background-darker);
+}
+#footer-widgets .widget ul,
+#footer-widgets .widget ol {
+  margin-left: 3px;
+  padding-left: 0px;
+  list-style: none;
+}
+#footer-widgets .widget li {
+  padding: 8px 0;
+  border-bottom: solid 1px var(--pixanews-background-darker);
+}
+#footer-widgets .widget li:last-child {
+  border-bottom: none;
+}
+#footer-widgets .widget li a {
+  color: var(--pixanews-text-light);
+  text-decoration: none;
+}
+#footer-widgets .widget li a:hover {
+  color: var(--pixanews-secondary-dark);
+}
+#footer-widgets .widget_block h1:only-child,
+#footer-widgets .widget_block h2:only-child,
+#footer-widgets .widget_block h3:only-child,
+#footer-widgets .widget_block h4:only-child,
+#footer-widgets .widget_block h5:only-child,
+#footer-widgets .widget_block h6:only-child {
+  margin-bottom: -40px;
+}
+#colophon {
+  background: var(--pixanews-primary);
+  color: var(--pixanews-primary-text);
+  padding: 15px;
+  text-align: center;
+}
+#colophon a {
+  color: var(--pixanews-primary-text);
+  font-weight: bold;
+  text-decoration: none;
+}
+/*# sourceMappingURL=footer.css.map */

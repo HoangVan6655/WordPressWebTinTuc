@@ -1,0 +1,50 @@
+/*
+Theme Name: SplashNews
+Theme URI: https://afthemes.com/products/splashnews/
+Author: AF themes
+Author URI: https://www.afthemes.com/
+Description: SplashNews is a light-styled child theme of Darknews theme. This theme has a main banner section with a thumb-grid layout. It also has major changes in its color configuration. It is a WordPress theme that's appropriate for a news, blog, and magazine website. The theme includes a range of free starting pages that can be imported with a single click to create a great news portal. With 9+ custom widgets and widget areas, the theme is fully widgetized, allowing users to control site content. It also contains a number of helpful customizer options for building a visually appealing news site. You can configure it as you like to see how it looks before making any improvements using the live customizer It's compatible with Elementor, Gutenberg blocks, and RTL, as well as the WooCommerce plugin, which enables you to blend an online shop with our newspaper theme. The theme is ideal for a news, journal, magazine, publishing, or review site, as well as blogging. It's well-designed to bring the website to the top of search engines, and people will get outstanding support from the team if they have any problems when using it. View demo at https://demo.afthemes.com/darknews/splashnews/ and documentation at https://docs.afthemes.com/darknews/
+Requires PHP: 5.6
+Tested up to: 5.9
+Version: 1.0.3
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: splashnews
+Tags: news, blog, entertainment, one-column, two-columns, grid-layout, block-styles, left-sidebar, right-sidebar, custom-header, flexible-header, custom-background, custom-colors, custom-menu, featured-images, full-width-template, post-formats, sticky-post, rtl-language-support, footer-widgets, translation-ready, theme-options, threaded-comments
+Template: darknews
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+SplashNews is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+SplashNews WordPress Theme, Copyright 2021 AF themes
+SplashNews is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+body .main-navigation .menu-description {
+    background-color: #1164F0;
+}
+body .main-navigation .menu-description:after{
+    border-top-color: #1164F0;
+}
+
+body .exclusive-posts .exclusive-now {
+    background: #1164F0;
+}
+
+body .darknews-header.header-layout-default .search-watch div.custom-menu-link > a {
+    background: #1164F0;
+}
+
+.widget-title-border-bottom .widget-title.category-color-2 .heading-line-before,
+.widget-title-border-center .widget-title.category-color-2 .heading-line-before,
+.widget-title-fill-and-no-border .widget-title.category-color-2 .heading-line,
+.widget-title-fill-and-border .widget-title.category-color-2 .heading-line,
+
+body .af-cat-widget-carousel a.darknews-categories.category-color-2{
+    background-color: #d72924;
+}
+.widget-title-fill-and-border .widget-title.category-color-2{
+    border-color: #d72924;
+}

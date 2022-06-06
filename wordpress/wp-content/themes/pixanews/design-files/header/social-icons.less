@@ -1,0 +1,141 @@
+#social-menu, #social-menu-sidr {
+	a {
+		content: "";
+		width: 20px;
+		position: relative;
+		color: transparent;
+	}
+	a:after {
+		text-indent: 0;
+		display: block;
+		float: left;
+		font-family: "Font Awesome 5 Brands";
+		font-weight: 400;
+		visibility: visible;
+		font-size: 18px;
+		position: absolute;
+		top: 0;
+	}
+	a[href*="dribbble.com"] {
+		&:after {
+			content: "\f17d";
+			color: #ea4c89;
+		}
+	}
+	a[href*="github.com"] {
+		&:after {
+			content: "\f09b";
+			color: black;
+		}
+	}
+	a[href*="facebook.com"] {
+		&:after {
+			content: "\f09a";
+			color: #3b5998;
+		}
+	}
+	a[href*="flickr.com"] {
+		&:after {
+			content: "\f16e";
+			color: #ff0084;
+		}
+	}
+	a[href*="foursquare.com"] {
+		&:after {
+			content: "\f180";
+			color: #0072b1;
+		}
+	}
+	a[href*="plus.google.com"] {
+		&:after {
+			content: "\f0d5";
+			color: #dd4b39;
+		}
+	}
+	a[href*="instagram.com"] {
+		&:after {
+			content: "\f16d";
+			color: #517fa4;
+		}
+	}
+	a[href*="linkedin.com"] {
+		&:after {
+			content: "\f0e1";
+			color: #007bb6;
+		}
+	}
+	a[href*="pinterest.com"] {
+		&:after {
+			content: "\f231";
+			color: #cb2027;
+		}
+	}
+	a[href*="reddit.com"] {
+		&:after {
+			content: "\f231";
+		}
+	}
+	a[href*="tumblr.com"] {
+		&:after {
+			content: "\f173";
+			color: #32506d;
+		}
+	}
+	a[href*="twitter.com"] {
+		&:after {
+			content: "\f099";
+			color: #00aced;
+		}
+	}
+	a[href*="vimeo.com"] {
+		&:after {
+			content: "\f194";
+			color: #aad450;
+		}
+	}
+	a[href*="wordpress.com"] {
+		&:after {
+			content: "\f19a";
+			color: #0073aa;
+		}
+	}
+	a[href*="wordpress.org"] {
+		&:after {
+			content: "\f19a";
+			color: #0073aa;
+		}
+	}
+	a[href*="youtube.com"] {
+		&:after {
+			content: "\f167";
+			color: #bb0000;
+		}
+	}
+	a[href*="mailto:"] {
+		&:after {
+			text-indent: 0;
+			display: block;
+			float: left;
+			font-family: "Font Awesome 5 Free";
+			font-weight: 900;
+			content: "\f0e0";
+		}
+	}
+	a[href*="twitch.tv"] {
+		&:after {
+			content: "\f1e8";
+			color: #6441A5;
+		}
+	}
+	a[href$="/feed/"] {
+		&:after {
+			text-indent: 0;
+			display: block;
+			float: left;
+			font-family: "Font Awesome 5 Free";
+			font-weight: 900;
+			content: "\f09e";
+			color: #ff9900;
+		}
+	}
+}
